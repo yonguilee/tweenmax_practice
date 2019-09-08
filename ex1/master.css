@@ -1,0 +1,15 @@
+html,body{margin:0;padding:0;width:100%;height:100vh}
+body{background:url(hero.jpg) 50% 50%;background-size:cover}
+
+h1{position:absolute;top:46%;left:50%;transform:translate(-50%, -50%);color:#fff;font-size:48px;font-family:"Playfair Display";font-weight:lighter}
+
+.toggle_btn{position:fixed;right:0;z-index:1;margin:1.4em;padding:1em;width:40px;height:12px;}
+.toggle_btn span{position:absolute;width:40px;height:2px;background:#fff}
+span.two{margin-top:12px}
+span.three{margin-top:24px}
+
+.menu{position:absolute;top:-100%;z-index:0;width:100%;height:100vh;background:#101010}
+.data{padding:8em 0 0 2em;text-align:left}
+.data ul{list-style:none}
+.data strong{color:#ccc;font-family:Poppines;font-size:24px}
+.data ul li a{text-decoration:none;font-family:Poppines;font-size:42px;color:#fff}
